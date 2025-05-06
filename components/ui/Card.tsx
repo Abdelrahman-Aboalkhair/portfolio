@@ -11,7 +11,7 @@ interface CardProps extends HTMLAttributes<HTMLDivElement> {
 export function Card({ children, className, ...props }: CardProps) {
     return (
         <motion.div
-            {...props}
+            // {...props}
             className={`bg-gray-800 rounded-lg shadow-lg ${className}`}
             whileHover={{ scale: 1.02 }}
             transition={{ duration: 0.3 }}
